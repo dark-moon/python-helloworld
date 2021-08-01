@@ -1,0 +1,21 @@
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 196-202-278
+INFO:app:hello request successful
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2021 06:32:33] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:app:hello request successful
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2021 06:33:18] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:app:Status request successful
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2021 06:33:24] "[37mGET /status HTTP/1.1[0m" 200 -
+INFO:app:Status request successful
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2021 06:33:59] "[37mGET /status HTTP/1.1[0m" 200 -
+INFO:app:hello request successful
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2021 06:34:00] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:app:Metrics request successful
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2021 06:34:02] "[37mGET /metrics HTTP/1.1[0m" 200 -
+INFO:app:Metrics request successful
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2021 06:34:23] "[37mGET /metrics HTTP/1.1[0m" 200 -
+INFO:app:Metrics request successful
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2021 06:35:46] "[37mGET /metrics HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2021 06:35:46] "[33mGET /metric HTTP/1.1[0m" 404 -
+INFO:app:Metrics request successful
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2021 11:51:20] "[37mGET /metrics HTTP/1.1[0m" 200 -
