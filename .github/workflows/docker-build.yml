@@ -22,4 +22,5 @@ jobs:
           context: .
           file: ./Dockerfile
           platforms: linux/amd64
-          push: ture
+          push: true
+          tags: mostafakashwaa/python-helloworld:latest
