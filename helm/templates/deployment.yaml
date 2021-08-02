@@ -4,9 +4,9 @@ metadata:
   labels:
     app: python-helloworld
   name: python-helloworld
-  namespace: default
+  namespace: {{ .Values.namespace.name }}
 spec:
-  replicas: 3
+  replicas: {{ .Values.replicaCount }}
   selector:
     matchLabels:
       app: python-helloworld
@@ -21,7 +21,7 @@ spec:
         app: python-helloworld
     spec:
       containers:
-      - image: mostafakashwaa/python-helloworld:v1.0.0
+      - image: {{ .Values.image.repository }}:{{ .Values.image.tag }}
         imagePullPolicy: IfNotPresent
         name: python-helloworld
         resources:
